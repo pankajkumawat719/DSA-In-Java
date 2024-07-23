@@ -14,7 +14,7 @@ public class UniqueInVector {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter the size of an VArrayector.........");
+        System.out.println("Enter the size of an Varrayector.........");
         Scanner src = new Scanner(System.in);
         int size = src.nextInt();
         int[] myarr = new int[size];
@@ -24,6 +24,6 @@ public class UniqueInVector {
         }
 
         int uniqueelement = checkUnique(myarr);
-        System.out.println("element is :"+uniqueelement);
+        System.out.println("element is :" + uniqueelement);
     }
 }

@@ -12,6 +12,7 @@ public class ExtrimPrint {
             if (startIndx>exdIndx)
             break;
 
+
             if (startIndx == exdIndx) {
                 System.out.println(myarry[startIndx]);
             }
