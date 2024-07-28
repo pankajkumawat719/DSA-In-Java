@@ -24,6 +24,8 @@ public class PivotNumberFor7 {
     }
     public static void main(String[] args) {
         System.out.println("Printing Pivot number 7....");
+
+        // for number 7
         int myArr[] = {3,4,5,6,7,1,2};
         int result = findPivot(myArr);
         System.out.println("return index id :"+result+" and value is :"+myArr[result]);
