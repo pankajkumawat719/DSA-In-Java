@@ -28,5 +28,14 @@ public class Array2D {
             }
             System.out.println();
         }
+        //for column wisw
+        System.out.println("For column wise data print");
+
+        for (int row = 0; row<i;row++){
+            for (int col = 0 ; col < j; col++){
+                System.out.print(arr[col][row]);
+            }
+            System.out.println();
+        }
     }
 }
